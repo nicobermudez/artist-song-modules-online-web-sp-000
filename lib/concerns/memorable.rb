@@ -1,5 +1,3 @@
-require_relative '../lib/concerns/memorable.rb'
-
 module Memorable
   def self.reset_all
     self.all.clear
